@@ -1,5 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
+import pyaudio
 
 # JavaScriptコードを含むHTMLテンプレート
 HTML_TEMPLATE = """
