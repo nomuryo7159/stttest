@@ -1,5 +1,6 @@
 import streamlit as st # フロントエンドを扱うstreamlitの機能をインポート
 import speech_recognition as sr # 音声認識の機能をインポート
+import pyaudio
 
 # 言語選択と、APIが認識する言語の変換リストを作成
 set_language_list = {
